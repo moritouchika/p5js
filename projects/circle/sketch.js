@@ -6,12 +6,13 @@ function setup() {
 
 function draw() {
   // put drawing code here
+  background(128, 128, 128);
   if(mouseIsPressed){
     r = random(255);
     g = random(255);
     b = random(255);
     fill(r, g, b);
-  r = 100;
+  r = 50;
   ellipse(mouseX, mouseY, r, r);
   } else {
     r = 255;
