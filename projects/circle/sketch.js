@@ -18,5 +18,4 @@ function draw() {
     g = 255;
     b = 255;
   }
-
 }
